@@ -1,0 +1,29 @@
+print ('Hi this is my first calculator')
+print ('welcome')
+print ('whats the first number')
+num1 = int(input('key in the first number: '))
+print('what is the function')
+fn = str(input('eg. (+,-,x,/): '))
+print ('whats the second number')
+num2 = int(input('key in the second number: '))
+
+if fn == str('+'):
+  ans = num1 + num2
+  print (ans)
+elif fn == str('-'):
+  ans = num1 - num2
+  print (ans)
+elif fn == str('x'):
+  ans = num1 * num2
+  print (ans)
+elif fn == str('/'):
+  ans = num1 / num2
+  print (ans)
+else:
+  print ('invalid function')
+
+num1 = ans
+
+
+
+
